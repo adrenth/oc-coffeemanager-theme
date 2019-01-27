@@ -1,0 +1,23 @@
+{
+    "name": "adrenth/oc-coffeemanager-theme",
+    "type": "october-theme",
+    "description": "Coffee Manager Theme",
+    "keywords": ["october", "cms", "coffee", "manager", "theme"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "A. Drenth",
+            "email": "adrenth@gmail.com",
+            "role": "Software Engineer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
