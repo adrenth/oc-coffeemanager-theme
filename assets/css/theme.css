@@ -350,4 +350,13 @@
   padding-top: 60px !important;
   padding-bottom: 60px !important;
 }
+body {
+  padding: 20px;
+}
+.logo img {
+  margin-right: 20px;
+}
+.logo h1 {
+  text-shadow: #ccc 1px 1px;
+}
 /*# sourceMappingURL=theme.css.map */
