@@ -6,15 +6,33 @@
 
 body {
     padding: 20px;
+    background: url('/themes/coffeemanager/assets/images/background.png') right repeat-y;
+    background-size: 25%;
 }
 
 .logo {
     img {
         margin-right: 20px;
     }
+}
 
-    h1 {
-        text-shadow: #ccc 1px 1px;
+h2, h3, h4 {
+    color: @brand-primary;
+    letter-spacing: 1px;
+    text-shadow:
+        .5px .5px 1px white,
+        -.5px -.5px 1px white,
+        .5px -.5px 0 white,
+        -.5px .5px 0 white,
+        .5px .5px 0 white;
+}
+
+table {
+    th {
+        background-color: white;
     }
 }
 
+hr {
+    border-color: @brand-primary;
+}

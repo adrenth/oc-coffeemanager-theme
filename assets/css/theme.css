@@ -352,11 +352,23 @@
 }
 body {
   padding: 20px;
+  background: url('/themes/coffeemanager/assets/images/background.png') right repeat-y;
+  background-size: 25%;
 }
 .logo img {
   margin-right: 20px;
 }
-.logo h1 {
-  text-shadow: #ccc 1px 1px;
+h2,
+h3,
+h4 {
+  color: #8a4b38;
+  letter-spacing: 1px;
+  text-shadow: 0.5px 0.5px 1px white, -0.5px -0.5px 1px white, 0.5px -0.5px 0 white, -0.5px 0.5px 0 white, 0.5px 0.5px 0 white;
+}
+table th {
+  background-color: white;
+}
+hr {
+  border-color: #8a4b38;
 }
 /*# sourceMappingURL=theme.css.map */
