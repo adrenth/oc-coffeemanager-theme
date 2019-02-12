@@ -1,10 +1,11 @@
 title = "Coffee Manager"
-url = "/"
+url = "/profile"
 layout = "default"
 
 [coffeeManagerClient]
+[coffeeManagerProfile]
 joinPage = "join"
-profilePage = "profile"
+clientPage = "home"
 ==
 <div class="container">
     <div class="row logo">
@@ -14,8 +15,8 @@ profilePage = "profile"
         </div>
     </div>
     <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            {% component 'coffeeManagerClient' %}
+        <div class="col-md-4 col-md-offset-4">
+            {% component 'coffeeManagerProfile' %}
         </div>
     </div>
 </div>
