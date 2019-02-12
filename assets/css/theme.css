@@ -369,4 +369,7 @@ table th {
 hr {
   border-color: #8a4b38;
 }
+a {
+  text-decoration: underline;
+}
 /*# sourceMappingURL=theme.css.map */
