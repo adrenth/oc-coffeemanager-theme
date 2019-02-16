@@ -263,10 +263,10 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "lato", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  color: #eee;
+  color: white;
   background-color: #fff;
 }
 input,
@@ -364,8 +364,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
-  font-weight: bold;
+  font-family: 'Exo 2';
+  font-weight: 400;
   line-height: 1.1;
   color: white;
 }
@@ -518,11 +518,11 @@ mark,
   color: #777777;
 }
 .text-primary {
-  color: #8a4b38;
+  color: #4389c5;
 }
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #663729;
+  color: #326fa3;
 }
 .text-success {
   color: #3c763d;
@@ -554,11 +554,11 @@ a.text-danger:focus {
 }
 .bg-primary {
   color: #fff;
-  background-color: #8a4b38;
+  background-color: #4389c5;
 }
 a.bg-primary:hover,
 a.bg-primary:focus {
-  background-color: #663729;
+  background-color: #326fa3;
 }
 .bg-success {
   background-color: #dff0d8;
@@ -2292,27 +2292,27 @@ fieldset[disabled] .btn-default.focus {
   background-color: #333;
 }
 .btn-primary {
-  color: #fff;
-  background-color: #8a4b38;
-  border-color: #784131;
+  color: #4389c5;
+  background-color: white;
+  border-color: #f2f2f2;
 }
 .btn-primary:focus,
 .btn-primary.focus {
-  color: #fff;
-  background-color: #663729;
-  border-color: #1d100c;
+  color: #4389c5;
+  background-color: #e6e6e6;
+  border-color: #b3b3b3;
 }
 .btn-primary:hover {
-  color: #fff;
-  background-color: #663729;
-  border-color: #4c291f;
+  color: #4389c5;
+  background-color: #e6e6e6;
+  border-color: #d4d4d4;
 }
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-  color: #fff;
-  background-color: #663729;
-  border-color: #4c291f;
+  color: #4389c5;
+  background-color: #e6e6e6;
+  border-color: #d4d4d4;
 }
 .btn-primary:active:hover,
 .btn-primary.active:hover,
@@ -2323,9 +2323,9 @@ fieldset[disabled] .btn-default.focus {
 .btn-primary:active.focus,
 .btn-primary.active.focus,
 .open > .dropdown-toggle.btn-primary.focus {
-  color: #fff;
-  background-color: #4c291f;
-  border-color: #1d100c;
+  color: #4389c5;
+  background-color: #d4d4d4;
+  border-color: #b3b3b3;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -2341,12 +2341,12 @@ fieldset[disabled] .btn-primary:focus,
 .btn-primary.disabled.focus,
 .btn-primary[disabled].focus,
 fieldset[disabled] .btn-primary.focus {
-  background-color: #8a4b38;
-  border-color: #784131;
+  background-color: white;
+  border-color: #f2f2f2;
 }
 .btn-primary .badge {
-  color: #8a4b38;
-  background-color: #fff;
+  color: white;
+  background-color: #4389c5;
 }
 .btn-success {
   color: #fff;
@@ -2744,7 +2744,7 @@ tbody.collapse.in {
   color: #fff;
   text-decoration: none;
   outline: 0;
-  background-color: #8a4b38;
+  background-color: #4389c5;
 }
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
@@ -3271,7 +3271,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #fff;
-  background-color: #8a4b38;
+  background-color: #4389c5;
 }
 .nav-stacked > li {
   float: none;
@@ -3930,8 +3930,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > .active > span:focus {
   z-index: 3;
   color: #fff;
-  background-color: #8a4b38;
-  border-color: #8a4b38;
+  background-color: #4389c5;
+  border-color: #4389c5;
   cursor: default;
 }
 .pagination > .disabled > span,
@@ -4048,11 +4048,11 @@ a.label:focus {
   background-color: #5e5e5e;
 }
 .label-primary {
-  background-color: #8a4b38;
+  background-color: #4389c5;
 }
 .label-primary[href]:hover,
 .label-primary[href]:focus {
-  background-color: #663729;
+  background-color: #326fa3;
 }
 .label-success {
   background-color: #4eb76e;
@@ -4137,7 +4137,7 @@ a.badge:focus {
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: white;
+  color: inherit;
 }
 .jumbotron p {
   margin-bottom: 15px;
@@ -4195,7 +4195,7 @@ a.thumbnail.active {
 }
 .thumbnail .caption {
   padding: 9px;
-  color: #eee;
+  color: white;
 }
 .alert {
   padding: 15px;
@@ -4305,7 +4305,7 @@ a.thumbnail.active {
   line-height: 25px;
   color: #fff;
   text-align: center;
-  background-color: #8a4b38;
+  background-color: #4389c5;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
@@ -4468,8 +4468,8 @@ button.list-group-item {
 .list-group-item.active:focus {
   z-index: 2;
   color: #fff;
-  background-color: #8a4b38;
-  border-color: #8a4b38;
+  background-color: #4389c5;
+  border-color: #4389c5;
 }
 .list-group-item.active .list-group-item-heading,
 .list-group-item.active:hover .list-group-item-heading,
@@ -4485,7 +4485,7 @@ button.list-group-item {
 .list-group-item.active .list-group-item-text,
 .list-group-item.active:hover .list-group-item-text,
 .list-group-item.active:focus .list-group-item-text {
-  color: #dfbaaf;
+  color: #dfebf5;
 }
 .list-group-item-success {
   color: #3c763d;
@@ -4865,22 +4865,22 @@ button.list-group-item-danger.active:focus {
   border-bottom-color: #ddd;
 }
 .panel-primary {
-  border-color: #8a4b38;
+  border-color: #4389c5;
 }
 .panel-primary > .panel-heading {
   color: #fff;
-  background-color: #8a4b38;
-  border-color: #8a4b38;
+  background-color: #4389c5;
+  border-color: #4389c5;
 }
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #8a4b38;
+  border-top-color: #4389c5;
 }
 .panel-primary > .panel-heading .badge {
-  color: #8a4b38;
+  color: #4389c5;
   background-color: #fff;
 }
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #8a4b38;
+  border-bottom-color: #4389c5;
 }
 .panel-success {
   border-color: #d6e9c6;
@@ -5128,7 +5128,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "lato", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -5246,7 +5246,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "lato", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
