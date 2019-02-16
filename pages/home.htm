@@ -1,4 +1,4 @@
-title = "Coffee Manager"
+title = "Koffie"
 url = "/"
 layout = "default"
 
@@ -6,16 +6,4 @@ layout = "default"
 joinPage = "join"
 profilePage = "profile"
 ==
-<div class="container">
-    <div class="row logo">
-        <div class="col-md-10 col-md-offset-2">
-            <img src="{{ 'assets/images/coffee.svg'|theme }}" width="100" class="pull-left">
-            <h1 class="pull-left"><em>Coffee Manager</em></h1>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            {% component 'coffeeManagerClient' %}
-        </div>
-    </div>
-</div>
+{% component 'coffeeManagerClient' %}

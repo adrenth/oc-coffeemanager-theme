@@ -4,7 +4,7 @@ description = "Default layout"
 <html>
     <head>
         <meta charset="utf-8">
-        <title>October CMS - {{ this.page.title }}</title>
+        <title>koffie.vdlp.nl</title>
         <meta name="description" content="{{ this.page.meta_description }}">
         <meta name="title" content="{{ this.page.meta_title }}">
         <meta name="author" content="A. Drenth <adrenth@gmail.com>">
@@ -12,15 +12,31 @@ description = "Default layout"
         <meta name="generator" content="OctoberCMS">
         <link href="{{ 'assets/css/vendor.css'|theme }}" rel="stylesheet">
         <link href="{{ 'assets/css/theme.css'|theme }}" rel="stylesheet">
-        <link rel="apple-touch-icon" sizes="180x180" href="{{ 'assets/images/favicon/apple-touch-icon.png'|theme }}">
-        <link rel="icon" type="image/png" sizes="32x32" href="{{ 'assets/images/favicon/favicon-32x32.png'|theme }}">
-        <link rel="icon" type="image/png" sizes="16x16" href="{{ 'assets/images/favicon/favicon-16x16.png'|theme }}">
+        <link rel="shortcut icon" href="{{ 'assets/images/favicon.ico'|theme }}" type="image/x-icon">
+        <link rel="icon" href="{{ 'assets/images/favicon.ico'|theme }}" type="image/x-icon">
+        <link rel="stylesheet" id="redux-google-fonts-salient_redux-css"
+              href="https://fonts.googleapis.com/css?family=Exo+2%3A400%2C700&#038;ver=1549295640"
+              type="text/css"
+              media="all"/>
         {% styles %}
     </head>
     <body>
-        <section id="layout-content">
-            {% page %}
-        </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4 col-sm-4 col-md-2">
+                    <img src="{{ 'assets/images/logo2.png'|theme }}" class="logo" alt="koffie.vdlp.nl">
+                </div>
+                <div class="col-xs-8 col-sm-8 col-md-10">
+                    <section class="banner">
+                        <h1>{{ this.page.title }}</h1>
+                        {% if this.page.subTitle %}
+                            <h2>{{ this.page.subTitle }}</h2>
+                        {% endif %}
+                    </section>
+                    {% page %}
+                </div>
+            </div>
+        </div>
         <script src="{{ 'assets/vendor/jquery.js'|theme }}"></script>
         <script src="{{ 'assets/vendor/bootstrap.js'|theme }}"></script>
         {% framework extras %}
