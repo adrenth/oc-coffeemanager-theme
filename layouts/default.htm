@@ -23,16 +23,7 @@ description = "Default layout"
     <body>
         <div class="container">
             <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-2">
-                    <img src="{{ 'assets/images/logo2.png'|theme }}" class="logo" alt="koffie.vdlp.nl">
-                </div>
-                <div class="col-xs-8 col-sm-8 col-md-10">
-                    <section class="banner">
-                        <h1>{{ this.page.title }}</h1>
-                        {% if this.page.subTitle %}
-                            <h2>{{ this.page.subTitle }}</h2>
-                        {% endif %}
-                    </section>
+                <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
                     {% page %}
                 </div>
             </div>

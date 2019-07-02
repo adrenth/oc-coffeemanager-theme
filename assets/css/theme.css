@@ -351,31 +351,10 @@
   padding-bottom: 60px !important;
 }
 body {
-  background: #4389c5;
+  background: #1c1c1c;
 }
-img.logo {
-  width: 100%;
-}
-section.banner {
-  height: 200px;
-  background: transparent url('/themes/coffeemanager/assets/images/banner.png') center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  margin: 0 0 20px 0;
-  display: table;
-  width: 100%;
-  text-shadow: 2px 2px 2px rgba(10, 10, 10, 0.4);
-  text-align: center;
-}
-section.banner h1 {
-  display: table-cell;
-  vertical-align: middle;
-}
-section.banner h2 {
-  display: table-row;
-  vertical-align: middle;
+.container {
+  padding-top: 16px;
 }
 h4 {
   margin: 0;
@@ -395,6 +374,7 @@ button {
   font-size: 24px;
   font-weight: bold;
   margin-top: 16px;
+  margin-bottom: 16px;
 }
 .radio label {
   font-family: 'Open Sans', sans-serif;
@@ -402,10 +382,17 @@ button {
 table th {
   background-color: white;
 }
-hr {
-  border-color: white;
-}
 a {
   text-decoration: underline;
 }
-/*# sourceMappingURL=theme.css.map */
+a.no-participants {
+  text-decoration: none;
+  color: black !important;
+}
+.panel {
+  margin: 0 0 16px 0;
+}
+.panel-title {
+  font-weight: bold;
+  color: #4389c5;
+}
